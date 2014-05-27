@@ -2,15 +2,16 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/cookielush.css">
+	<link href='http://fonts.googleapis.com/css?family=Crafty+Girls|Bitter|Fredoka+One|Indie+Flower|Chewy|Amaranth|Handlee' rel='stylesheet' type='text/css'>
 </head>
 <body>
 
 	<div id='container'>
 		<nav>
 			<ul>
+				<li>Logo</li>
 				<li class='tab'><a href="#">Home</a></li>
 				<li class="tab"><a href="#">About Us</a></li>
-				<li>Logo</li>
 				<li class="tab"><a href="#">Gallery</a></li>
 				<li class="tab"><a href="#">Order/Cart</a></li>
 			</ul>
@@ -35,6 +36,96 @@
 
 		<div class="img-holder" data-image="css/images/test3.jpg" data-width="1680" data-height="1050"></div>
 		<section><p>Sprinkles!!!</p></section>
+
+		<div id="form_wrapper" class="form_wrapper">
+			<form class="register">
+			    <h3>Register</h3>
+			    <div class="column">
+			       	<div>
+			           	<label>First Name:</label>
+			           	<input type="text" />
+			       	</div>
+		        	<div>
+		            	<label>Last Name:</label>
+		            	<input type="text" />
+		        	</div>
+		     	 	<div>
+		        	    <label>Website:</label>
+		            	<input type="text" value="http://"/>
+			        </div>
+			    	</div>
+			   	 <div class="column">
+			   		<div>
+			           	<label>Username:</label>
+		            	<input type="text"/>
+		        	</div>
+		        	<div>
+			           	<label>Email:</label>
+			           	<input type="text" />
+			       	</div>
+			       	<div>
+			           	<label>Password:</label>
+			           	<input type="password" />
+			       	</div>
+			   	</div>
+		    <div class="bottom">
+		        <div class="remember">
+			         <input type="checkbox" />
+			      </div>
+		        	<input type="submit" value="Register" />
+		        	<a href="index.html" rel="login" class="linkform">
+			           	You have an account already? Log in here
+			       	</a>
+		     <div class="clear"></div>
+			    </div>
+		</form>
+			<form class="login active">
+    			<h3>Login</h3>
+    			<div>
+        			<label>Username:</label>
+        			<input type="text" />
+    			</div>
+    			<div>
+        			<label>Password: 
+            		<a href="forgot_password.html" rel="forgot_password" class="forgot linkform">
+               			Forgot your password?
+            		</a>
+        			</label>
+       		 		<input type="password" />
+    			</div>
+    			<div class="bottom">
+        			<div class="remember"><input type="checkbox" />
+            		<span>Keep me logged in</span>
+        		</div>
+        		<input type="submit" value="Login"></input>
+        			<a href="register.html" rel="register" class="linkform">
+            		You don't have an account yet? Register here
+        			</a>
+        		<div class="clear"></div>
+    			</div>
+			</form>
+			<form class="forgot_password">
+    			<h3>Forgot Password</h3>
+    			<div>
+       				<label>Username or Email:</label>
+        			<input type="text" />
+    			</div>
+    			<div class="bottom">
+        		<input type="submit" value="Send reminder"></input>
+        			<a href="index.html" rel="login" class="linkform">
+            			Suddenly remebered? Log in here
+        			</a>
+        			<a href="register.html" rel="register" class="linkform">
+            			You don't have an account? Register here
+        			</a>
+        		<div class="clear"></div>
+    			</div>
+			</form>
+		</div>
+
+
+
+
 
 	<script type="text/javascript" src="js/jquery.min.js"></script>
   <script src='js/jquery.imageScroll.min.js'></script>
